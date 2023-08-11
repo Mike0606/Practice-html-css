@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    background-color: rgb(32, 33, 33);
+}
+
+/* ---------------------------- Header -------------------------*/
+
+header{
+    padding: 4% 0 14% 0;
+    background-color: rgb(32, 33, 33);
+    border-bottom: 3px solid rgb(45, 45, 45);
+}
+
+header>p{
+    display: inline;
+    padding: 0 0 0 11%;
+    color: rgb(206, 212, 218);
+    font-size: 20px;
+}
+
+header>div{
+    display: inline;
+}
+
+.headlinks{
+    position: relative;
+    left: 57vw;
+}
+
+.headlinks a{
+    text-decoration: none;
+    color: rgb(206, 212, 218);
+    font-size: 20px;
+}
+a{
+    position: relative;
+    left: 20px;
+    margin: 0 25px 0 0;
+}
+header>img{
+    position: absolute;
+    display: block;
+    left: 42.7%;
+    top: 1%;
+    height: 13rem;
+    width: 12rem;
+}
+h2,h5{
+    color: rgb(206, 212, 218);
+}
+img+h2{
+    position: absolute;
+    left: 41.4%;
+    top: 25%;
+}
+h2+h5{
+    position: absolute;
+    left: 40%;
+    top: 29%;
+}
+
+/*--------------------------- Nav bar --------------------------*/
+
+nav{
+    background-color: rgb(34, 34, 36);
+    display: block;
+    padding: 0.5px 0 0.5px 0;
+    font-size: large;
+    color: rgb(206, 212, 218);
+    text-align: center;
+}
+
+/*--------------------------Main Part---------------------------*/
+
+main{
+    border-bottom: 3px solid rgb(45, 45, 45);
+}
+.article{
+    padding: 1% 10% 1% 10%;
+}
+.block1{
+    display: flex;
+    height: 30%;
+    width: 100%;
+}
+.B1P1{
+    width: 60%;
+    background-color: rgb(218, 223, 228);
+    margin: 2% 2% 2% 2%;
+    padding: 2% 2%;
+    border-radius: 7px;
+}
+.B1P1 img{
+    width: 95%;
+    padding: 1% 0 2% 3%;
+    border-radius: 7px;
+}
+
+.article p{
+    color: rgb(53, 53, 54);
+}
+
+.article+p{
+    color: rgb(187, 191, 194);
+    position: relative;
+    top: 5%;
+    text-align: center;
+    margin: 0 0 5% 0;
+}
+/*---------------------------- Footer --------------------------*/
+
+footer{
+    padding: 3% 10%;
+}
+footer p{
+    color: rgb(206, 212, 218);
+    display: inline;
+    font-size: 20px;
+}
+.mentions{
+    background-color: rgb(99, 99, 161);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 0.3%;
+}
+#followAcc{
+    position: relative;
+    left: 75%;
+}
